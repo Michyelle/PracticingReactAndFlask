@@ -44,6 +44,8 @@ From this project, I gained practical experience in:
 ---
 
 ## 📸 Output Screenshots  
+<img width="1809" height="814" alt="Project3Responsive" src="https://github.com/user-attachments/assets/df05738b-f51a-47e2-af95-eccebad0afb1" />
+<img width="1259" height="810" alt="Project3Responsive2" src="https://github.com/user-attachments/assets/c6855e88-a2da-40ff-b9a1-28a0b453a288" />
 
 ---
 
