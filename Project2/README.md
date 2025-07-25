@@ -44,7 +44,8 @@ From this project, I gained practical experience in:
 ---
 
 ## 📸 Output Screenshots  
-
+<img width="1809" height="816" alt="responsivejounral" src="https://github.com/user-attachments/assets/f14edbcd-b376-4e94-8226-c368d76c7eda" />
+<img width="1258" height="839" alt="responsivejounral2" src="https://github.com/user-attachments/assets/01664ef1-28f7-4c91-a3fb-c0e9a97b2112" />
 
 ---
 
