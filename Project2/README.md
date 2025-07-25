@@ -1,12 +1,87 @@
-# React + Vite
+# ✈️ Travel Journal  
+_A Scrimba React Project – Course 2: Passing Props & Component Design_
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple, beautiful **travel journal** web app that showcases memorable trips through visual cards. Each card includes a location, a description, a map link, and a photo. It was built using React, and helped me practice breaking down layouts into reusable components and passing props effectively.
 
-Currently, two official plugins are available:
+✅ **Fully mobile responsive** – optimized for desktops, tablets, and mobile devices!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Purpose  
+The goal of this project was to learn how to build structured, data driven UIs in React. I focused on **component design** and **prop passing** while recreating a travel log experience that displays dynamic trip entries in a consistent layout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 What I Learned  
+From this project, I gained practical experience in:
+
+- 🧱 Creating clean, reusable components  
+- 📨 Passing props to children components  
+- 🗃️ Using arrays and `.map()` to render multiple components  
+- 🌍 Embedding external map links  
+- 🖼️ Working with images and layout design  
+- 📱 Designing layouts that work well across screen sizes  
+- ✨ Organizing code with clarity and consistency  
+
+---
+
+## 🗂️ File Structure  
+```
+├── public/
+│   └── index.html              # Root HTML file for React to mount into
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx          # Top navigation bar with project title/logo
+│   │   ├── Entry.jsx           # Reusable card that displays one travel entry
+│   ├── data.js                 # Array of travel entries (title, location, dates, etc.)
+│   ├── App.jsx                 # Root component that renders the journal
+│   ├── index.css               # Styling for layout and responsiveness
+│   └── main.jsx                # React app entry point
+├── package.json
+└── README.md                   # You're here :)
+```
+
+---
+
+## 📸 Output Screenshots  
+
+
+---
+
+## 🚀 How to Run the App  
+1. **Clone the repo**  
+```
+git clone https://github.com/Michyelle/PracticingReactAndFlask.git
+cd ./Project2/
+```
+
+2. **Install dependencies**  
+```
+npm install
+```
+
+3. **Start the development server**  
+```
+npm run dev
+```
+
+---
+
+## 🛠️ Technologies Used  
+- React ⚛️  
+- JavaScript 🟨  
+
+---
+
+## 💡 Future Improvements  
+- 🌐 Fetch entries from a real travel blog API  
+- 🖊️ Add the ability to write and save new journal entries  
+- 🗺️ Integrate an interactive map component  
+- 📅 Include calendar-based filtering by date  
+
+---
+
+## 🔗 Connect with Me  
+- [GitHub](https://github.com/Michyelle)  
+- [LinkedIn](https://www.linkedin.com/in/michellenguyen12/)  
+- [Portfolio](https://michellenguyen.vercel.app/)
