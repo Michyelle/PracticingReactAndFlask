@@ -1,0 +1,35 @@
+:root {
+  --background-color: #574144;
+
+  --main-text-color: #faf3eb;
+  --secondary-text-color: #5e4158;
+
+  --textbox-color: #ffe4e1;
+
+  --button-color: #b79ea1;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: #bf7e81;
+  color: var(--main-text-color);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+input {
+  background-color: var(--textbox-color);
+  color: var(--secondary-text-color);
+}
+
+button {
+  background-color: var(--button-color);
+  color: var(--main-text-color);
+}
