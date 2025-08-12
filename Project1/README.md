@@ -38,7 +38,7 @@ From this project, I gained practical experience in:
 ---
 
 ## 📸 Output Screenshots  
-
+<img width="1251" height="804" alt="project1" src="https://github.com/user-attachments/assets/b5f4fcd3-520e-4f08-a22a-e3a04ca2aee4" />
 
 ---
 
