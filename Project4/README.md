@@ -42,7 +42,8 @@ From this project, I gained hands-on experience with:
 ---
 
 ## 📸 Output Screenshots  
-
+<img width="1625" height="818" alt="1" src="https://github.com/user-attachments/assets/738d2ae5-9f15-48cd-a0ec-0324d6b850bd" />
+<img width="1131" height="814" alt="2" src="https://github.com/user-attachments/assets/296f2a85-8e87-4f1b-93b4-26987f5c0651" />
 
 ---
 
