@@ -7,9 +7,11 @@
   --textbox-color: #ffe4e1;
 
   --button-color: #b79ea1;
+--font-size: clamp(0.8rem, 2.5vw, 2.5rem);
 }
 
 body {
+  font-family: Courier New, monospace;
   margin: 0;
   background-color: var(--background-color);
 }
@@ -22,14 +24,99 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
+  font-size: var(--font-size);
+  flex-wrap: wrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 input {
   background-color: var(--textbox-color);
   color: var(--secondary-text-color);
+  padding: 8px;
+  font-size: var(--font-size);
+  width: 100%;
+  box-sizing: border-box;
 }
 
-button {
+.inputRow {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.inputRow label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: var(--main-text-color);
+  font-weight: bold;
+  width: 100%;
+}
+
+.generateMemeButton {
+  width: 100%;
+  padding: 10px;
+  max-width: 1000px;
+  margin-bottom: 20px;
   background-color: var(--button-color);
   color: var(--main-text-color);
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.meme img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+}
+
+.meme .top,
+.meme .bottom {
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  pointer-events: none;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+
+.meme .top {
+  top: 2.5px;
+}
+
+.meme .bottom {
+  bottom: 2.5px;
+}
+
+
+@media (max-width: 420px) {
+  header {
+    background-color: #bf7e81;
+    color: var(--main-text-color);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
 }

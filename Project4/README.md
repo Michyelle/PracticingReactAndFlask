@@ -1,12 +1,84 @@
-# React + Vite
+# 💀 Meme Generator 😭
+_A Scrimba React Project – Course 4: React Forms_  
+The Meme Generator is your ultimate laugh factory! 🤣🖼️ Just pick a meme template, type in your top and bottom text, and watch your masterpiece come to life instantly. This app is built using React and focuses on what I learned in Scrimba’s fourth React course on forms and event handling.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ **Fully mobile responsive** – works great on phones, tablets, and desktops!  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Purpose  
+The purpose of this project was to strengthen my understanding of **React forms and event handling** by creating an interactive and fun meme generator. The goal was to give users an easy way to customize memes in real time with dynamic text rendering over images.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 What I Learned  
+From this project, I gained hands-on experience with:  
+- 📝 Handling form inputs using `useState` and `useEffect`
+- ⌨️ Controlled components for text fields  
+- 🖼️ Fetching and using API data (meme templates)  
+- 🔄 Dynamic image rendering based on user input  
+- 🎯 Event handling with `onChange` and `onSubmit`  
+- 💡 Passing props between components
+- ⚡ Using `useEffect` to fetch and update data on component load  
+- 📱 Responsive layout and styling techniques  
+
+---
+
+## 🗂️ File Structure
+```
+├── public/
+ │ └── index.html
+ ├── src/
+ │ ├── components/
+ │ │ ├── Header.jsx         # Displays the app title/logo
+ │ │ └── MemeGenerator.jsx  # Shows the selected meme with custom text
+ │ ├── App.jsx              # Root component that ties everything together
+ │ ├── index.css            # Global styles
+ │ └── main.jsx             
+ ├── package.json
+ └── README.md
+```
+
+---
+
+## 📸 Output Screenshots  
+
+
+---
+
+## 🚀 How to Run the App  
+1. **Clone the repo**
+```
+   git clone https://github.com/Michyelle/PracticingReactAndFlask.git
+   cd .\Project4\
+```
+
+2. **Install dependencies**
+```
+npm install
+```
+
+3. **Start the server**
+```
+npm run dev
+```
+
+---
+
+## 🛠️ Technologies Used
+- React ⚛️
+- JavaScript 🟨
+
+---
+
+## 💡 Future Improvements
+- 📤 Option to download memes directly as images
+- 🎨 Add font styles and color customization
+- 🖼️ Allow uploading custom images
+
+---
+
+## 🔗 Connect with Me 
+- [GitHub](https://github.com/Michyelle)
+- [LinkedIn](https://www.linkedin.com/in/michellenguyen12/)
+- [Portfolio](https://michellenguyen.vercel.app/)
